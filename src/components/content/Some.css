@@ -7,10 +7,14 @@
     margin-top: 1rem;
   }
   
+  #one .some__container-flex:nth-child(2), #four .some__container-flex:nth-child(2) {
+    margin-right: 2rem;
+  }
+
   .some__container-flex:first-child {
     margin-right: 2rem;
   }
-  
+
   .some__container {
     margin-top: 1rem;
     display: flex;
@@ -36,9 +40,5 @@
 
     .some__container-flex:hover {
         transform: scale(1.1);
-    }
-
-    .some__container-flex:first-child, .some__container-flex:nth-child(2) {
-      margin-right: 2rem;
     }
 }
