@@ -20,10 +20,10 @@ export default function Skills() {
     <>
       <h2 className="section__title babas">Skills</h2>
       <div className="skills__container-flex ">
-        <Card delay={200} img="./html.png" alt="HTML5 logo" />
-        <Card delay={300} img="./css.png" alt="CSS3 logo" />
-        <Card delay={400} img="./js.png" alt="JavaScript logo" />
-        <Card delay={500} img="./react.png" alt="React.js logo" />
+        <Card delay={200} img="./html.webp" alt="HTML5 logo" />
+        <Card delay={300} img="./css.webp" alt="CSS3 logo" />
+        <Card delay={400} img="./js.webp" alt="JavaScript logo" />
+        <Card delay={500} img="./react.webp" alt="React.js logo" />
       </div>
       <div className="text__container "> 
         {posts.map((post) => (          

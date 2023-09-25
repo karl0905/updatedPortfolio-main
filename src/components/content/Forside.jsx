@@ -23,7 +23,7 @@ export default function Forside() {
         <div className="fade-bund">
           <img
             className="landing__img"
-            src="./karl.png"
+            src="./karl.webp"
             alt="et billede af Karl Løvendahl"
           />
         </div>

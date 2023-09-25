@@ -6,6 +6,7 @@
     align-items: center;
     flex-wrap: nowrap;
     height: 18rem;
+    width: auto;
 }
 
 .cardprojects__img {
