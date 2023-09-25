@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.babas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+:root {
+    --hvid: #f7f7f7;
+    --blaa: #23395d;
+    --lysBlaa: #384c6d;
+    --graa: #808080;
+  }
+
+/* fade in animation */
+.fade-in {
+    animation: fadeIn ease 2.5s;
+    -webkit-animation: fadeIn ease 2.5s;
+    -moz-animation: fadeIn ease 2.5s;
+    -o-animation: fadeIn ease 2.5s;
+    -ms-animation: fadeIn ease 2.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+/*  scroll bar */
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    --sb-track-color: #232e33;
+    --sb-thumb-color: #5f997c;
+    --sb-size: 10px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+}
+  
+body::-webkit-scrollbar {
+   width: var(--sb-size);
+}
+
+  
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+   
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 0.6rem 0;
+    color: var(--hvid);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+p {
+    color: var(--hvid);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.flex .some__container { 
+  justify-content: center;
+}
+
+.margin-bottom {
+  margin-bottom: 4.5rem;
+}
+
+.last-updated__para {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: var(--graa);
+  opacity: 0.4;
+}
+
+.ScrollToTop {
+  cursor: pointer;
+  width: 3rem !important;
+  height: 3rem !important;
+  right: 5% !important;
+  bottom: 5% !important;
+  background-color: var(--blaa) !important;
+  fill: white !important;
+  border-radius: 50% !important;
+  text-align: center;
+  font-size: 30px;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.ScrollToTop svg {
+  fill: var(--hvid);
+}
+
+.ScrollToTop:hover {
+  scale: 1.2;
+  box-shadow: 2 2 2 2 var(--lysBlaa);
+}
+
+.some__footer {
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0;
+    color: var(--hvid);
+  }
+
+  h2 {
+    font-size: 10rem;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .text__container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+
+  .some__footer {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,28 @@
+.section__title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 4.5rem;
+    color: var(--hvid);
+}
+
+.skills__container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+@media (min-width: 768px) {
+    .section__title {
+        font-size: 4rem;
+    }
+
+    .skills__container-flex {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+}
