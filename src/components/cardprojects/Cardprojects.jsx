@@ -22,7 +22,7 @@ export default function Cardprojects(props) {
     >
       <p className="cardprojects__para">{props.description}</p>
       <div className="cardprojects__img-container">
-        <a href={props.link} onClick={props.onClick}>
+        <a href={props.link}>
           <img
             className="cardprojects__img"
             src={`${props.img}`}
