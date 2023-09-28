@@ -25,6 +25,8 @@ export default function Forside() {
             className="landing__img"
             src="./karl.webp"
             alt="et billede af Karl Løvendahl"
+            width="738"
+            height="1352"
           />
         </div>
         <div className="landing__some-text">

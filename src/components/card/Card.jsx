@@ -7,9 +7,14 @@ export default function Card(props) {
 
     Aos.init(); //Animation on scroll fra npm.js
 
-    return(
+    return (
         <div className="card" data-aos="fade-up" data-aos-once="true" data-aos-delay={props.delay}>
-            <img className='card__img' src={`${props.img}`} alt={props.alt} />
+            <img 
+            className='card__img' 
+            src={`${props.img}`} 
+            alt={props.alt} 
+            width="182"
+            height="256"/>
         </div>
     )
 }

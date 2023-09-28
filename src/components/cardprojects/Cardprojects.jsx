@@ -27,6 +27,8 @@ export default function Cardprojects(props) {
             className="cardprojects__img"
             src={`${props.img}`}
             alt={props.alt}
+            width="500"
+            height="256"
           />
         </a>
       </div>
