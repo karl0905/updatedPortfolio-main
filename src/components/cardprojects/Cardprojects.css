@@ -7,6 +7,7 @@
     flex-wrap: nowrap;
     height: 18rem;
     width: auto;
+    max-width: 35rem;
 }
 
 .cardprojects__img {
