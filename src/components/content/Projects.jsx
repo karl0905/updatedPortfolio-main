@@ -16,7 +16,7 @@ export default function Projects() {
           link="https://bookbazr.karlg.dk"
           github_link="https://github.com/karl0905/webapp.git"
           alt="Et snapshot af BookBazr siden"
-          delay="400"
+          delay="300"
         />
         <Cardprojects
           img="./webDoc.webp"
@@ -24,7 +24,7 @@ export default function Projects() {
           link="https://karlg.dk/webDoc-main/"
           github_link="https://github.com/karl0905/webDoc-main.git"
           alt="Et snapshot af hjemmesiden til kunstneren Mark Løvendahl"
-          delay="300"
+          delay="400"
         />
         <Cardprojects
           img="./black.webp"
