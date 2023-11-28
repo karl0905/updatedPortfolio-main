@@ -10,7 +10,7 @@ export default function Contact() {
       </p>
       <div className="flex">
         <Some />
-        <p className="last-updated__para inter">Senest opdateret: september 2023</p>
+        <p className="last-updated__para inter">Senest opdateret: november 2023</p>
       </div>
       
     </>
